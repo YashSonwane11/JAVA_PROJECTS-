@@ -27,8 +27,7 @@ SQL
 Setup & Installation
 
 Clone this repository:
-
-git clone https://github.com/your-username/bank-management-system.git
+https://github.com/Yashjihacker/MR_YashuHacker.git
 cd bank-management-system
 
 Install SQLite if not already installed.
