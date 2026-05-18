@@ -1,68 +1,88 @@
-Bank Account Management System (Java + SQLite)
+# JAVA_PROJECTS
 
-Description
+A collection of Java-based mini projects developed for learning Core Java, JDBC, AWT, Swing, SQLite, and Database Connectivity concepts.
 
-This is a simple Java console-based application that manages bank accounts and supports money transfers between accounts using SQLite as the database. The project demonstrates how to use JDBC with SQLite to store customer details and transaction records.
+## Projects Included
 
-Features
+### 1. Bank Account Management System (Java + SQLite)
+A console-based banking application that manages customer accounts and money transfers using SQLite and JDBC.
 
-Create bank accounts with customer details and initial balance.
+#### Features
+- Create bank accounts
+- Store customer details in SQLite database
+- Transfer money between accounts
+- Maintain transaction history
+- Display account information
 
-Store account details persistently in an SQLite database.
+#### Technologies Used
+- Java
+- SQLite (JDBC)
+- SQL
 
-Display account information.
+---
 
-Transfer money between accounts with automatic balance updates.
+### 2. Railway Reservation System
+A Java Swing GUI application for railway ticket reservation and passenger search functionality.
 
-Maintain a transaction history with timestamps.
+#### Features
+- Reserve railway tickets
+- Store reservation records in SQLite database
+- Search passengers by name
+- Display reservation history
+- GUI-based interface using Swing
 
-Technologies Used
+#### Technologies Used
+- Java Swing
+- SQLite
+- JDBC
 
-Java
+---
 
-SQLite (JDBC)
+### 3. Student Information Storage System (AWT + SQLite)
+A Java AWT application that stores and displays student information using SQLite database connectivity.
 
-SQL
+#### Features
+- Add student records
+- Store data in SQLite database
+- Show stored student information
+- Reset input fields
 
-Setup & Installation
+#### Technologies Used
+- Java AWT
+- SQLite
+- JDBC
 
-Clone this repository:
-https://github.com/Yashjihacker/MR_YashuHacker.git
-cd bank-management-system
+---
 
-Install SQLite if not already installed.
+### 4. Bookstore Management System
+A Java-based bookstore management application for handling book records and operations.
 
-Ensure you have Java installed (JDK 8 or higher).
+#### Features
+- Manage book records
+- Add and display books
+- Database connectivity support
 
-Compile and run the program:
+#### Technologies Used
+- Java
+- JDBC
+- SQL
 
-javac demo.java
-java demo
+---
 
-Database Structure
+## Technologies Used in Repository
 
-The application creates two tables:
+- Java
+- JDBC
+- SQLite
+- SQL
+- AWT
+- Swing
 
-Accounts: Stores account number, customer name, and balance.
+---
 
-Transactions: Logs all money transfers with a timestamp.
+## Setup & Installation
 
-How It Works
-
-The program prompts the user to create multiple bank accounts.
-
-Account details are saved in the SQLite database.
-
-The user can transfer money between accounts by specifying the amount and account numbers.
-
-Transaction details are recorded in the database.
-
-The updated account balances are displayed after the transfer.
-
-Contribution
-
-Feel free to fork this repository and submit pull requests for improvements.
-
-License
-
-This project is open-source and available under the MIT License.
+### Clone Repository
+```bash
+git clone https://github.com/YashSonwane11/JAVA_PROJECTS.git
+cd JAVA_PROJECTS
